@@ -28,8 +28,8 @@ h1 {
 
 img {
     max-height: 600px;
-    max-width: 350px;
-    margin: 15px 30px 30px 30px;
+    max-width: 330px;
+    margin: 15px 20px 20px 20px;
     border-radius: 8px;
 
     -webkit-box-shadow: 14px 9px 24px -11px rgba(0, 0, 0, 1);
@@ -61,11 +61,7 @@ button {
     -moz-box-shadow: 6px 7px 22px -11px rgba(0, 0, 0, 1);
     box-shadow: 6px 7px 22px -11px rgba(0, 0, 0, 1);
 }
-button:hover {
-    -webkit-box-shadow: inset 6px 7px 18px -11px rgba(0, 0, 0, 1);
-    -moz-box-shadow: inset 6px 7px 18px -11px rgba(0, 0, 0, 1);
-    box-shadow: inset 6px 7px 18px -11px rgba(0, 0, 0, 1);
-}
+
 
 .wrapper {
     display: flex;
@@ -79,4 +75,10 @@ button:hover {
         max-height: 800px;
         max-width: 800px;
     }
+    button:hover {
+        -webkit-box-shadow: inset 6px 7px 18px -11px rgba(0, 0, 0, 1);
+        -moz-box-shadow: inset 6px 7px 18px -11px rgba(0, 0, 0, 1);
+        box-shadow: inset 6px 7px 18px -11px rgba(0, 0, 0, 1);
+    }
 }
+

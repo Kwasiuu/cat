@@ -15,4 +15,4 @@ const getRandomCat = () => {
 }
 
 getRandomCat()
-btn.addEventListener('click', getRandomCat) 
+btn.addEventListener('click', getRandomCat)
